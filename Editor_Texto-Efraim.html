@@ -1,0 +1,95 @@
+<html lang="pt-br"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>editor texto-Efraim Melo</title>
+</head>
+<body id="edita" style="color: rgb(0, 0, 0);">
+   
+   
+    <div id="doc">
+<!--Esta é um site de edição de texto -->
+
+<div id="digite"> Digite na janela  seu texto</div>
+<br> 
+<br>
+    <div id="cores" style="
+    display: inline-flex;
+">    <p style="margin-top: -4%;" placeholder="Feito por Efraim Oliveira Melo ">   Selecione cores:</p>
+
+        <!--Aqui você seleciona as cores para o fundo para o texto e ate faz um Gradiente -->
+
+        <p> 
+        cor Principal:<input id="cor1" value="#ffffff" type="color">
+        </p>
+
+        <p>
+         Cor secundaria(gradiente):<input type="color" value="#ffffff" id="cor2">
+        </p>
+   
+         <p> 
+         Cor letra<input type="color" id="cortx">
+        </p>
+        
+     </div>
+
+</div>
+
+
+<div id="alinha">
+
+<!--alinhado fica tudo mais bonito aqui voce pode alinhar -->
+
+    <p>Alinhamento do texto</p>
+            <button onclick="document.getElementById('grad').style.textAlign='Left';">esquerda</button>
+            <button onclick="document.getElementById('grad').style.textAlign='center';">Centralizar</button>
+            <button onclick="document.getElementById('grad').style.textAlign='right';">Direita</button>
+
+
+  <div style="display: inline-flex;font-size: smaller;" id="selectfont"> 
+      
+             <!--Que tal mudar o tamanho do texto aqui voce pode muda-lo e ate trocar de fonte -->
+             <p>Tamanho da fonte</p>
+
+             <input placeholder="ex: 16 pt " type="number" id="tamanho">
+     
+     
+        <p> fonte</p>
+        <select name="fonte" id="fonte">
+            <option value="arial">Arial</option>
+            <option value="Arial Black">Arial Black</option>
+            <option value="Book antiqua">Book Antiqua </option>
+            <option value="Courier new">Courier new</option>
+            <option value="cursive">Cursiva</option>
+            <option value="fantasy">Fantasy</option>
+            <option value="Georgia">Georgia</option>
+            <option value="Helvetica">Helvetica</option>
+            <option value="Impact">Impact</option>
+            <option value="Lucida Console">Lucida Console </option>
+            <option value="Lucida sans unicode">Lucida sans unicode </option>
+            <option value="monospace">Monospace</option>
+            <option value="sans-serif">Sem Serifa</option>
+            <option value="Times new Roman">Times new Roman</option>
+            <option value="Tahoma">Tahoma</option>
+            <option value="Verdana">Verdana</option>
+        <option value="system-ui">UI do Sistema</option>
+        <option value="ui-sans-serif">UI com Serifa</option>
+        
+        
+
+
+        </select>
+        </div>
+       
+        
+</div>
+
+<div id="grad" contenteditable="true" spellcheck="false" style="height: 100%; box-shadow: black 1px 1px 3px; color: rgb(0, 0, 0);padding: 3%;" placeholder="Digite na janela seu texto"></div> 
+
+<style src="estilo.css">
+</style>
+
+<script src="texto_scripts.js">
+</script>
+
+
+</body></html>

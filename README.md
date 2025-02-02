@@ -8,3 +8,5 @@ Ele  permite voce editar o texto e fazer alterações no  texto e no documento c
 
 BASICAMENTE É UM MINI "WORD"
 ![Tela site](https://user-images.githubusercontent.com/75638686/158209117-9684dd9a-dce1-459c-a36d-044e6c56cf1c.PNG)
+
+[Confira o projeto Aqui](https://editor-texto.web.app/)
